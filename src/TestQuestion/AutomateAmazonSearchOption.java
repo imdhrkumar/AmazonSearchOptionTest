@@ -289,8 +289,7 @@ public class AutomateAmazonSearchOption {
 
         driver.close();
         driver.switchTo().window(tabs4.get(0));
-
-
+        driver.close();
 
 
     }
